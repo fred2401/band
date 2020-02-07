@@ -1,0 +1,41 @@
+body{
+    border-top: 1px solid black;
+    width: 99%;
+    flex-direction: column;
+}
+img{
+    float: right;
+    width: 70%;
+    height:50%;
+}
+.about{
+    font-family: sans-serif;
+    font-size: 4mm;
+    font-weight: bold;
+    width: 30%;
+    float: left;
+    background-color: lightgray;
+    border-bottom: 2px solid red;
+}
+.spin{
+    font: outline;
+    font-variant: small-caps;
+    font-size: 5mm;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.comment{
+    font-style: italic;
+    font-weight: normal;
+}
+.images img{
+    float: none;
+    width: 100%;
+
+}
+.images{
+    border: 2px solid red;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
